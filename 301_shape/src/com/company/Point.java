@@ -3,6 +3,7 @@ package com.company;
 /**
  * Created by thinhdbui on 13/3/17.
  */
+
 public class Point {
     int _x;
     int _y;
@@ -24,7 +25,7 @@ public class Point {
         _x = x;
         _y = y;
     }
-
+    
     public Point(Point anotherPoint) {
         _x = anotherPoint._x;
         _y = anotherPoint._y;
